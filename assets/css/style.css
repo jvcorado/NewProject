@@ -5,15 +5,16 @@
 
 }
 body{
-    background-color: rgb(141, 138, 138);
-}
-.cabecalho{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
-.carousel{
-   width: 60%;
-   align-items-center
-   justify-content-center
-   
+@media (max-width: 500px) {
+    .conteudo-card{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card{
+        margin-bottom: 20px;
+    }
 }
