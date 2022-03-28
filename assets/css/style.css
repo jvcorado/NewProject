@@ -8,7 +8,11 @@
 body{
     background-color: #0D1249;
 }
-
+.cabecalho{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
 .apresentacao{
     color: white;
 }
