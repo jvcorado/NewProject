@@ -4,11 +4,30 @@
     box-sizing: border-box;
 
 }
+
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #0D1249;
+}
+h1{
+    font-size: 5rem 
+}
+p{
+    font-size: 2rem;
+}
+.apresentacao{
+    color: white;
 }
 
+
 @media (max-width: 500px) {
+
+    h1{
+        font-size: 3rem 
+    }
+    p{
+        font-size: 1rem;
+    }
+
     .conteudo-card{
         flex-direction: column;
         align-items: center;
