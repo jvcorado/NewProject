@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(141, 138, 138);
+}
+.cabecalho{
+    background-color: aqua;
+}
+
+.carousel{
+   width: 60%;
+   align-items-center
+   justify-content-center
+   
+}
