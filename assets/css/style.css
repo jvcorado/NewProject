@@ -39,4 +39,14 @@ body{
     .card{
         margin-bottom: 20px;
     }
+    .botao{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .botao .btn{
+        width: 60%;
+        margin: 10px;
+    }
 }
